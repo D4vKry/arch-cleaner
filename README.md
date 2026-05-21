@@ -3,6 +3,8 @@
 A lightweight and automated Bash script to optimize and free up disk space on Arch Linux systems, designed for storage-constrained environments like virtual machines, small drives or pentesting distros.
 
 
+<img width="616" height="334" alt="imaxe" src="https://github.com/user-attachments/assets/c52931ce-fe4f-427f-ac13-ef51cf38ade9" />
+
 ## Features
 
 Arch Cleaner dynamically calculates the recovered disk space and features an error-handling and privilege-escalation safety system.
