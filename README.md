@@ -36,7 +36,7 @@ The script requires superuser privileges for system-level tasks. However, it sho
 ### Clone and Execute
 ```bash
 # Clone the repository
-git clone [https://github.com/D4vKry/arch-cleaner.git](https://github.com/D4vKry/arch-cleaner.git)
+git clone https://github.com/D4vKry/arch-cleaner.git
 cd arch-cleaner
 chmod +x cleaner.sh
 sudo ./cleaner.sh
