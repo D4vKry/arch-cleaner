@@ -2,7 +2,6 @@
 
 A lightweight and automated Bash script to optimize and free up disk space on Arch Linux systems, designed for storage-constrained environments like virtual machines ,small drives or pentesting distros.
 
----
 
 ## Features
 
@@ -12,7 +11,6 @@ Arch Cleaner dynamically calculates the recovered disk space and features an err
 *   **Log Maintenance:** Silently purges historical `systemd` journal logs (`journalctl`), retaining only the last 7 days.
 *   **Orphan Removal:** Detects and removes residual dependencies that are no longer required by any installed program.
 
----
 
 ## Available Options
 
@@ -26,7 +24,6 @@ The script supports the following command-line arguments:
 | `-a` | `--aur` | Includes `yay` and `paru` cache cleanup in the Home directory. |
 | `-u` | `--user` | Includes user thumbnail cache removal in the Home directory. |
 
----
 
 ## Installation and Usage
 
@@ -43,3 +40,5 @@ sudo ./cleaner.sh
 ```
 
 Any issues, bugs, or Pull Requests are welcome in the repository's issues section.
+
+Project protected by MIT License, free to use
