@@ -91,7 +91,6 @@ cat << "EOF"
                `.^.:`.
 
  --- ARCH CLEANER by @D4vKry :)---
- --- Any issue or PR report it in the repository ---
  
 EOF
 USED_BEFORE=$(df -m / | awk 'NR==2 {print $3}')
