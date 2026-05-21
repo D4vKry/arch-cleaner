@@ -28,7 +28,11 @@ The script supports the following command-line arguments:
 ## Installation and Usage
 
 ### Prerequisites
-The script requires superuser privileges for system-level tasks. However, it should be executed using `sudo` rather than directly as the root user so it can correctly identify your actual user's Home path. Also requires `paccache` installed in your arch distro (if you don't want to use paccache use the -f option).
+The script requires superuser privileges for system-level tasks. However, it should be executed using `sudo` rather than directly as the root user so it can correctly identify your actual user's Home path. Also you need paccache for the default options, you can install it via pacman
+```bash
+sudo pacman -S pacman-contrib
+```
+If you don't want to install paccache, you can use the script with -f option (not recommended).
 
 ### Clone and Execute
 ```bash
