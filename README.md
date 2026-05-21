@@ -1,6 +1,6 @@
 # Arch Cleaner
 
-A lightweight and automated Bash script to optimize and free up disk space on Arch Linux systems, designed for storage-constrained environments like virtual machines ,small drives or pentesting distros.
+A lightweight and automated Bash script to optimize and free up disk space on Arch Linux systems, designed for storage-constrained environments like virtual machines, small drives or pentesting distros.
 
 
 ## Features
@@ -41,4 +41,4 @@ sudo ./cleaner.sh
 
 Any issues, bugs, or Pull Requests are welcome in the repository's issues section.
 
-Project protected by MIT License, free to use
+Project protected by MIT License, free to use.
