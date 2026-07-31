@@ -8,8 +8,6 @@ A lightweight and automated Bash script to optimize and free up disk space on Ar
 
 ## Features
 
-Arch Cleaner dynamically calculates the recovered disk space and features an error-handling and privilege-escalation safety system.
-
 *   **Pacman Cache Cleanup:** Safely retains only the last 3 versions of installed packages using `paccache` by default.
 *   **Log Maintenance:** Silently purges historical `systemd` journal logs (`journalctl`), retaining only the last 7 days.
 *   **Orphan Removal:** Detects and removes residual dependencies that are no longer required by any installed program.
@@ -31,7 +29,7 @@ The script supports the following command-line arguments:
 ## Installation and Usage
 
 ### Prerequisites
-The script requires superuser privileges for system-level tasks. However, it should be executed using `sudo` rather than directly as the root user so it can correctly identify your actual user's Home path. Also you need paccache for the default options, you can install it via pacman
+The script requires superuser privileges for system-level tasks. However, it should be executed using `sudo` rather than directly as the root user so it can correctly identify your actual user's Home path. Also you need paccache for the default options, you can install it via pacman:
 ```bash
 sudo pacman -S pacman-contrib
 ```
@@ -45,6 +43,6 @@ chmod +x cleaner.sh
 sudo ./cleaner.sh
 ```
 
-Any issues, bugs, or Pull Requests are welcome in the repository's issues section.
+Any issues, bugs, or Pull Requests are welcome in the correspondent repository's section.
 
 Project protected by MIT License, free to use.
