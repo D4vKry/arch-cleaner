@@ -1,5 +1,8 @@
 #!/bin/bash
 # automatic cleaner cache an logs in arch
+# made by D4vKry for all
+# website: https://d4vkry.github.io/
+
 
 VERBOSE=0
 FORCE_CLEAN_ALL=0
